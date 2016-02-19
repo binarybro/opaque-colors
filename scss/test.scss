@@ -1,6 +1,10 @@
 @import 'opague-colors';
 
 expect {
+  black: rgba-on-black(rgba(255, 255, 255,  0.0));
+  gray: rgba-on-black(rgba(255, 255, 255,  0.5));
+  white: rgba-on-white(rgba(0,0,0,  0.0));
+  gray: rgba-on-white(rgba(0,0,0,  0.5));
   gray: rgb-merge(black, white, 0.5);
   gray: rgb-merge(white, black, 0.5);
   gray: rgb-merge(#f0f, #0f0, 0.5);
