@@ -4,7 +4,7 @@
   "description": "opaque-colors",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "gulp build"
   },
   "keywords": [
     "sass",
