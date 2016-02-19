@@ -16,4 +16,3 @@
   $b: blue($rgb0) *$ratio +blue($rgb1) *(1 -$ratio);
   @return rgb($r, $g, $b);
 }
-
